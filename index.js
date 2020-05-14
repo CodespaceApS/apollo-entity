@@ -6,8 +6,7 @@ module.exports.addQuery = data.addQuery
 module.exports.addMutation = data.addMutation
 module.exports.addType = data.addType
 
-module.exports.init = (func, directives = '') => {
-  func()
+module.exports.init = (directives = '') => {
   const resolvers = {}
   if (Object.keys(data.mutations).length > 0) {
     resolvers['Mutation'] = data.mutations
