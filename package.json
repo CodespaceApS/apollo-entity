@@ -1,0 +1,11 @@
+{
+  "name": "apollo-entity",
+  "version": "0.0.1",
+  "description": "Apollo entity style (beta)",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-server": "^2.11.0"
+  },
+  "author": "Codespace ApS",
+  "license": "MIT"
+}
